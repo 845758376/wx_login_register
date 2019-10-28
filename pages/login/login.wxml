@@ -1,0 +1,12 @@
+<!--pages/login/login.wxml-->
+<view class="inputView" style="margin-top: 40% ">
+<input name="" class="input" type="number" placeholder="请输入学号" placeholder-style="color: red" bindinput="inputName" />
+</view>
+<view class="inputView">
+<input name="password" class="input" password="true" placeholder="请输入密码" placeholder-style="color: red" bindinput="inputPassword"/>
+</view>
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="login">登录</button>
+
+
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx" type="warn" bindtap="btnReg">注册</button>
+

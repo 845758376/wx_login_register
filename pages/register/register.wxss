@@ -1,0 +1,43 @@
+/* pages/register/register.wxss */
+
+
+container
+{
+  
+  width:700rpx;
+  margin-top:20rpx;
+  margin-left:25rpx;
+}
+.area1{
+  width: 100%;
+  height:100rpx;
+}
+
+.reg{
+  width:100%;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 32px;
+}
+
+.btn-form{
+  width:500rpx;
+}
+
+.btnsubmit
+ {
+  width: 100%;
+  margin-top: 20rpx;
+  background-color: green;
+  color: white;
+  border-radius: 98rpx; 
+}
+
+.btnreset
+ {
+  width: 100%;
+  margin-top: 20rpx;
+  background-color: red;
+  color: white;
+  border-radius: 98rpx; 
+}

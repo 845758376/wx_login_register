@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view>个人信息</view>
+<view>学号：{{userid}}</view>
+<view>姓名：{{username}}</view>
+<view>性别：{{sex}}</view>
+<view>生日：{{birthday}}</view>
+<view>爱好：{{interest}}</view>
+<view>手机：{{phone}}</view>
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="btnLogin">退出登录</button>
